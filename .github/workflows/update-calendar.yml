@@ -1,0 +1,45 @@
+name: Update Lunch Calendar
+
+on:
+  # Run weekly on Sundays at 6:00 AM ET (11:00 UTC)
+  schedule:
+    - cron: '0 11 * * 0'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-calendar:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch menu and generate calendar
+        run: python fetch_menu.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --quiet docs/lunch.ics || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/lunch.ics
+          git commit -m "Update lunch calendar $(date +'%Y-%m-%d')"
+          git push
