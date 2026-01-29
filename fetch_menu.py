@@ -83,33 +83,58 @@ def parse_menu_data(raw_data):
             "sides": [],
             "vegetables": [],
             "fruit": [],
-            "milk": []
+            "milk": [],
+            "special_message": None
         }
 
-        current_category = None
+        # Known standard categories from the menu system
+        STANDARD_CATEGORIES = {"lunch entree", "vegetables", "fruit", "milk", "grains", "misc."}
+
+        current_section = None  # Track which major section we're in
         in_with_section = False
 
         for item in current_display:
             item_type = item.get("type")
             item_name = item.get("name", "")
+            item_key = item.get("item", "")
 
             if item_type == "category":
-                current_category = item_name.lower()
-                in_with_section = False
+                category_lower = item_name.lower()
+
+                # Check if this is a standard category or a custom one
+                if category_lower in STANDARD_CATEGORIES or "entree" in category_lower:
+                    # Standard category - update current section
+                    if "entree" in category_lower:
+                        current_section = "entree"
+                    elif "vegetable" in category_lower:
+                        current_section = "vegetables"
+                    elif "fruit" in category_lower:
+                        current_section = "fruit"
+                    elif "milk" in category_lower:
+                        current_section = "milk"
+                    else:
+                        current_section = "other"
+                    in_with_section = False
+                else:
+                    # Custom category (like "SUPER BOWL PARTY!!") - treat as special message
+                    # Don't change current_section, just capture the message
+                    if str(item_key).startswith("cust_") or category_lower not in STANDARD_CATEGORIES:
+                        menu_entry["special_message"] = item_name
+
             elif item_type == "text" and "with" in item_name.lower():
                 in_with_section = True
             elif item_type == "recipe":
-                # Categorize the recipe
-                if current_category and "entree" in current_category:
+                # Categorize the recipe based on current section
+                if current_section == "entree":
                     if not in_with_section and menu_entry["entree"] is None:
                         menu_entry["entree"] = item_name
                     else:
                         menu_entry["sides"].append(item_name)
-                elif current_category and "vegetable" in current_category:
+                elif current_section == "vegetables":
                     menu_entry["vegetables"].append(item_name)
-                elif current_category and "fruit" in current_category:
+                elif current_section == "fruit":
                     menu_entry["fruit"].append(item_name)
-                elif current_category and "milk" in current_category:
+                elif current_section == "milk":
                     menu_entry["milk"].append(item_name)
                 else:
                     menu_entry["sides"].append(item_name)
@@ -149,9 +174,13 @@ def create_calendar(menus):
         # Create event
         event = Event()
 
-        # Title is the main entree
+        # Title is the main entree, with special message if present
         title = meal_data["entree"]
-        event.add("summary", f"{title}")
+        special_msg = meal_data.get("special_message")
+        if special_msg:
+            event.add("summary", f"{title} - {special_msg}")
+        else:
+            event.add("summary", f"{title}")
 
         # Description has full details
         description_parts = []
