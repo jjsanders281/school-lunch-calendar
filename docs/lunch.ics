@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Bay Middle School Lunch Menu//
+PRODID:-//Bay MS Lunch Menu//
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Bay MS Lunch
@@ -9,7 +9,11 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:6adc0ccd5d2292de052d537f24674c39@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nVegetables
  : Side Salad\, Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nM
@@ -19,7 +23,11 @@ BEGIN:VEVENT
 SUMMARY:Crispy Chicken Sandwich
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:2aabc3ad443960a8bcb58d80cb960161@bayms-lunch
 DESCRIPTION:Entree: Crispy Chicken Sandwich\nWith: Tater Puffs\, Baked Bea
  ns\nVegetables: Celery Sticks\, Baby Carrots\, Veggie Sticks\nFruit: Fresh
@@ -29,7 +37,11 @@ BEGIN:VEVENT
 SUMMARY:Pizza Crunchers 
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:2f7de4eecf12ddce116e3cbca77c3d2f@bayms-lunch
 DESCRIPTION:Entree: Pizza Crunchers \nWith: Marinara Sauce\nVegetables: Ce
  lery Sticks\, Baby Carrots\, Potato Smiles\, Cucumber Slices\nFruit: Fresh
@@ -39,7 +51,11 @@ BEGIN:VEVENT
 SUMMARY:Grilled Cheese Sandwich
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:8e2b429629fa0d6429a2fe01cc6384ae@bayms-lunch
 DESCRIPTION:Entree: Grilled Cheese Sandwich\nVegetables: Celery Sticks\, B
  aby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE M
@@ -49,7 +65,11 @@ BEGIN:VEVENT
 SUMMARY:Popcorn Chicken
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:c727636d9e924478a5474048e6da6b7d@bayms-lunch
 DESCRIPTION:Entree: Popcorn Chicken\nWith: Cooked Penne Noodles\nVegetable
  s: Celery Sticks\, Baby Carrots\, Broccoli Florets\nFruit: Fresh Fruit Var
@@ -59,7 +79,11 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:37c2be9a91dbcfc6bcabf5ccf1efe076@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nVegetables
  : Side Salad\, Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nM
@@ -69,7 +93,11 @@ BEGIN:VEVENT
 SUMMARY:Mini Maple Pancakes
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:9e9ff808399c96f8cf4da6b9166e7642@bayms-lunch
 DESCRIPTION:Entree: Mini Maple Pancakes\nWith: Sausage Links\, Seasoned Ha
  shbrown Patties\nVegetables: Celery Sticks\, Baby Carrots\, Mango Wango Ju
@@ -80,7 +108,11 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco Doritos
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:6a1930fc16b0b789ff9c8d45e792764c@bayms-lunch
 DESCRIPTION:Entree: Walking Taco Doritos\nWith: Black Bean & Corn Salsa\nV
  egetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk:
@@ -90,7 +122,11 @@ BEGIN:VEVENT
 SUMMARY:Mini Corn Dogs
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:e47e4952a95df46f2e0dc94ace089aeb@bayms-lunch
 DESCRIPTION:Entree: Mini Corn Dogs\nWith: Lays Oven Baked Potato Chips\nVe
  getables: Celery Sticks\, Baby Carrots\, Veggie Sticks\nFruit: Fresh Fruit
@@ -100,7 +136,11 @@ BEGIN:VEVENT
 SUMMARY:Tangerine Chicken
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
+<<<<<<< Updated upstream
 DTSTAMP:20260812T225027Z
+=======
+DTSTAMP:20260812T194251Z
+>>>>>>> Stashed changes
 UID:1d632d3b6f10a139666c51930a8233cd@bayms-lunch
 DESCRIPTION:Entree: Tangerine Chicken\nWith: Fried Brown Rice WG\, Rich's 
  Fudge-Filled Triple Chocolate Cookie\nVegetables: Celery Sticks\, Baby Car

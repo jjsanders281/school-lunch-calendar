@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Fetch Bay Middle School lunch menus and generate an iCal file.
+Fetch Bay Village school lunch menus and generate iCal files (one per school).
 """
 
 import requests
@@ -13,21 +13,36 @@ import json
 
 # API Configuration
 ORG_ID = "1229"
-SITE_ID = "9540"  # Bay Middle School
 BASE_URL = "https://menus.healthepro.com/api"
 
 # Output configuration
 OUTPUT_DIR = Path(__file__).parent / "docs"
-OUTPUT_FILE = OUTPUT_DIR / "lunch.ics"
+
+# One calendar per school. Keep the middle school's filename and uid_domain
+# unchanged so existing calendar subscriptions keep working.
+SCHOOLS = [
+    {
+        "site_id": "9540",
+        "cal_name": "Bay MS Lunch",
+        "output_file": "lunch.ics",
+        "uid_domain": "bayms-lunch",
+    },
+    {
+        "site_id": "9541",
+        "cal_name": "Bay HS Lunch",
+        "output_file": "lunch-hs.ics",
+        "uid_domain": "bayhs-lunch",
+    },
+]
 
 
-def get_current_menus():
+def get_current_menus(site_id):
     """
-    Discover the site's current menus and their published months.
+    Discover a site's current menus and their published months.
     Menu IDs change every school year, so we look them up instead of hardcoding.
     Returns list of dicts: [{"id": int, "name": str, "published_months": [str]}]
     """
-    url = f"{BASE_URL}/organizations/{ORG_ID}/sites/{SITE_ID}/menus/"
+    url = f"{BASE_URL}/organizations/{ORG_ID}/sites/{site_id}/menus/"
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()
@@ -151,14 +166,14 @@ def parse_menu_data(raw_data):
     return menus
 
 
-def create_calendar(menus):
+def create_calendar(menus, cal_name, uid_domain):
     """Create an iCal calendar from the parsed menu data."""
     cal = Calendar()
-    cal.add("prodid", "-//Bay Middle School Lunch Menu//")
+    cal.add("prodid", f"-//{cal_name} Menu//")
     cal.add("version", "2.0")
     cal.add("calscale", "GREGORIAN")
     cal.add("method", "PUBLISH")
-    cal.add("x-wr-calname", "Bay MS Lunch")
+    cal.add("x-wr-calname", cal_name)
     cal.add("x-wr-timezone", "America/New_York")
 
     for date_str, meal_data in sorted(menus.items()):
@@ -209,7 +224,7 @@ def create_calendar(menus):
         # Generate unique ID based on date and content
         uid_source = f"{date_str}-{title}"
         uid = hashlib.md5(uid_source.encode()).hexdigest()
-        event.add("uid", f"{uid}@bayms-lunch")
+        event.add("uid", f"{uid}@{uid_domain}")
 
         # Timestamp
         event.add("dtstamp", datetime.now())
@@ -219,19 +234,18 @@ def create_calendar(menus):
     return cal
 
 
-def main():
-    print("Fetching Bay Middle School lunch menus...")
+def build_school_calendar(school):
+    """Fetch menus for one school and write its .ics file. Returns event count."""
+    print(f"Fetching {school['cal_name']} menus...")
 
     # Discover current menus (IDs change each school year)
-    menus = get_current_menus()
+    menus = get_current_menus(school["site_id"])
     for m in menus:
-        print(f"Menu {m['id']} ({m.get('name')}): published months {m['published_months']}")
+        print(f"  Menu {m['id']} ({m.get('name')}): published months {m['published_months']}")
 
     if not menus:
-        # Exit non-zero so the GitHub Action fails loudly instead of
-        # silently publishing nothing
-        print("No menus with published months found!")
-        sys.exit(1)
+        print(f"  No menus with published months found for {school['cal_name']}!")
+        return 0
 
     # Fetch all published months from all current menus
     all_menus = {}
@@ -240,32 +254,40 @@ def main():
             try:
                 year, month, _ = month_str.split("-")
                 year, month = int(year), int(month)
-                print(f"Fetching {year}-{month:02d}...")
+                print(f"  Fetching {year}-{month:02d}...")
 
                 raw_data = get_menu_for_month(m["id"], year, month)
                 month_menus = parse_menu_data(raw_data)
                 all_menus.update(month_menus)
-                print(f"  Found {len(month_menus)} days with menus")
+                print(f"    Found {len(month_menus)} days with menus")
 
             except Exception as e:
-                print(f"Error fetching {month_str}: {e}")
+                print(f"  Error fetching {month_str}: {e}")
 
-    # Count actual menu days (not days off)
-    menu_days = sum(1 for m in all_menus.values() if not m.get("is_off") and m.get("entree"))
-    print(f"Total days with lunch menus: {menu_days}")
+    cal = create_calendar(all_menus, school["cal_name"], school["uid_domain"])
 
-    # Create calendar
-    cal = create_calendar(all_menus)
-
-    # Ensure output directory exists
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    # Write calendar file
-    with open(OUTPUT_FILE, "wb") as f:
+    output_file = OUTPUT_DIR / school["output_file"]
+    with open(output_file, "wb") as f:
         f.write(cal.to_ical())
 
-    print(f"Calendar saved to {OUTPUT_FILE}")
-    print(f"Total events: {len([c for c in cal.walk() if c.name == 'VEVENT'])}")
+    event_count = len([c for c in cal.walk() if c.name == "VEVENT"])
+    print(f"  Calendar saved to {output_file} ({event_count} events)")
+    return event_count
+
+
+def main():
+    total_events = 0
+    for school in SCHOOLS:
+        total_events += build_school_calendar(school)
+
+    if total_events == 0:
+        # Exit non-zero so the GitHub Action fails loudly instead of
+        # silently publishing nothing
+        print("No events generated for any school!")
+        sys.exit(1)
+
+    print(f"Done. Total events across all calendars: {total_events}")
 
 
 if __name__ == "__main__":
