@@ -4,6 +4,7 @@ Fetch Bay Middle School lunch menus and generate an iCal file.
 """
 
 import requests
+import sys
 from datetime import datetime, timedelta
 from icalendar import Calendar, Event
 from pathlib import Path
@@ -12,7 +13,7 @@ import json
 
 # API Configuration
 ORG_ID = "1229"
-MENU_ID = "109815"
+SITE_ID = "9540"  # Bay Middle School
 BASE_URL = "https://menus.healthepro.com/api"
 
 # Output configuration
@@ -20,18 +21,22 @@ OUTPUT_DIR = Path(__file__).parent / "docs"
 OUTPUT_FILE = OUTPUT_DIR / "lunch.ics"
 
 
-def get_published_months():
-    """Get list of months that have published menu data."""
-    url = f"{BASE_URL}/organizations/{ORG_ID}/menus/{MENU_ID}"
+def get_current_menus():
+    """
+    Discover the site's current menus and their published months.
+    Menu IDs change every school year, so we look them up instead of hardcoding.
+    Returns list of dicts: [{"id": int, "name": str, "published_months": [str]}]
+    """
+    url = f"{BASE_URL}/organizations/{ORG_ID}/sites/{SITE_ID}/menus/"
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()
-    return data.get("data", {}).get("published_months", [])
+    return [m for m in data.get("data", []) if m.get("published_months")]
 
 
-def get_menu_for_month(year: int, month: int):
+def get_menu_for_month(menu_id, year: int, month: int):
     """Fetch menu data for a specific month using date_overwrites endpoint."""
-    url = f"{BASE_URL}/organizations/{ORG_ID}/menus/{MENU_ID}/year/{year}/month/{month}/date_overwrites"
+    url = f"{BASE_URL}/organizations/{ORG_ID}/menus/{menu_id}/year/{year}/month/{month}/date_overwrites"
     response = requests.get(url)
     response.raise_for_status()
     return response.json()
@@ -217,29 +222,33 @@ def create_calendar(menus):
 def main():
     print("Fetching Bay Middle School lunch menus...")
 
-    # Get available months
-    published_months = get_published_months()
-    print(f"Published months: {published_months}")
+    # Discover current menus (IDs change each school year)
+    menus = get_current_menus()
+    for m in menus:
+        print(f"Menu {m['id']} ({m.get('name')}): published months {m['published_months']}")
 
-    if not published_months:
-        print("No published months found!")
-        return
+    if not menus:
+        # Exit non-zero so the GitHub Action fails loudly instead of
+        # silently publishing nothing
+        print("No menus with published months found!")
+        sys.exit(1)
 
-    # Fetch all published months
+    # Fetch all published months from all current menus
     all_menus = {}
-    for month_str in published_months:
-        try:
-            year, month, _ = month_str.split("-")
-            year, month = int(year), int(month)
-            print(f"Fetching {year}-{month:02d}...")
+    for m in menus:
+        for month_str in m["published_months"]:
+            try:
+                year, month, _ = month_str.split("-")
+                year, month = int(year), int(month)
+                print(f"Fetching {year}-{month:02d}...")
 
-            raw_data = get_menu_for_month(year, month)
-            month_menus = parse_menu_data(raw_data)
-            all_menus.update(month_menus)
-            print(f"  Found {len(month_menus)} days with menus")
+                raw_data = get_menu_for_month(m["id"], year, month)
+                month_menus = parse_menu_data(raw_data)
+                all_menus.update(month_menus)
+                print(f"  Found {len(month_menus)} days with menus")
 
-        except Exception as e:
-            print(f"Error fetching {month_str}: {e}")
+            except Exception as e:
+                print(f"Error fetching {month_str}: {e}")
 
     # Count actual menu days (not days off)
     menu_days = sum(1 for m in all_menus.values() if not m.get("is_off") and m.get("entree"))
