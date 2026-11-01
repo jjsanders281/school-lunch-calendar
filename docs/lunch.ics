@@ -6,205 +6,185 @@ METHOD:PUBLISH
 X-WR-CALNAME:Bay MS Lunch
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Cheeseburger
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-DTSTAMP:20261025T143957Z
-UID:b12cf4327ea8e927aaf0b45e0147ae30@bayms-lunch
-DESCRIPTION:Entree: Cheeseburger\nWith: Baked Beans\, Tater Puffs\nVegetab
- les: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDE
- N FAT FREE CHOCOLATE MILK\, 1% Milk
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Beef Fiestada
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-DTSTAMP:20261025T143957Z
-UID:56d23a3b1075343cba79f7f60a7736bb@bayms-lunch
-DESCRIPTION:Entree: Beef Fiestada\nWith: Veggie Sticks\nVegetables: Celery
-  Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE 
- CHOCOLATE MILK\, 1% Milk
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Popcorn Chicken
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-DTSTAMP:20261025T143957Z
-UID:e93c1db3c4f9a7e463ec0542d17a652e@bayms-lunch
-DESCRIPTION:Entree: Popcorn Chicken\nWith: Cooked Penne Noodles\, Broccoli
- \nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMi
- lk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+DTSTAMP:20261101T165701Z
+UID:7709457efafc9ea412e44dcf5382f5c2@bayms-lunch
+DESCRIPTION:Entree: Popcorn Chicken\nWith: Cooked Penne Noodles\, Oven Roa
+ sted Parmesan Broccoli\nVegetables: Celery Sticks\, Baby Carrots\nFruit: F
+ resh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-DTSTAMP:20261025T143957Z
-UID:0b19fffe883e652083ac403ca4cc3ba5@bayms-lunch
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+DTSTAMP:20261101T165701Z
+UID:d49de1f2e084cc826e5ddfcf43b215ae@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
  ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mini Corn Dogs
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
-DTSTAMP:20261025T143957Z
-UID:02ab35e3d60cb05c12e9687b55abebe2@bayms-lunch
-DESCRIPTION:Entree: Mini Corn Dogs\nWith: Steamed Carrots\, Potato Smiles
- \nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMi
- lk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Chicky Ramen Cup
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+DTSTAMP:20261101T165701Z
+UID:9427dbea3eab5860ad73ab86eef26e08@bayms-lunch
+DESCRIPTION:Entree: Chicky Ramen Cup\nWith: Diced Chicken\, Fortune Cookie
+ s\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nM
+ ilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bosco Sticks with Marinara Sauce
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-DTSTAMP:20261025T143957Z
-UID:b241810d2e367774658d5bda4d1ab800@bayms-lunch
-DESCRIPTION:Entree: Bosco Sticks with Marinara Sauce\nWith: Veggie Sticks
- \nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMi
- lk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Cheeseburger
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+DTSTAMP:20261101T165701Z
+UID:f9cde21399ddacffc853b94ef008c147@bayms-lunch
+DESCRIPTION:Entree: Cheeseburger\nWith: Baked Beans\, Tater Tots\nVegetabl
+ es: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN
+  FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:General Tso's Chicken
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
-DTSTAMP:20261025T143957Z
-UID:fa48b2cca1d2355af054f587965e3a28@bayms-lunch
-DESCRIPTION:Entree: General Tso's Chicken\nWith: Fried Brown Rice WG\, Ove
- n Roasted Parmesan Broccoli\, Vegetable Egg Roll\, Fortune Cookies\nVegeta
- bles: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORD
- EN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Pizza Crunchers 
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+DTSTAMP:20261101T165701Z
+UID:07ff242a6c8abde5426ab29687ba4eba@bayms-lunch
+DESCRIPTION:Entree: Pizza Crunchers \nWith: Marinara Sauce\, Creamy Cole S
+ law\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety
+ \nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Glazed Chicken Wings
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261101T165701Z
+UID:9ff4629c8165fd178d6a1a1691101f6e@bayms-lunch
+DESCRIPTION:Entree: Glazed Chicken Wings\nWith: Au Gratin Potatoes \, Broc
+ coli\, Gluten Free Cinnamon Chex\nVegetables: Celery Sticks\, Baby Carrots
+ \nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Mi
+ lk
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-DTSTAMP:20261025T143957Z
-UID:a75862189e1093f291c6ac749c3f0631@bayms-lunch
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+DTSTAMP:20261101T165701Z
+UID:a1a761a067a74563a70b7ef5e1e57bdd@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
  ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Macaroni & Cheese
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-DTSTAMP:20261025T143957Z
-UID:72a1620e62540ba524e5aa69ce20d1ab@bayms-lunch
-DESCRIPTION:Entree: Macaroni & Cheese\nWith: BBQ Pulled Pork\, Green Peas
- \, Chocolate Chip Cookies\nVegetables: Celery Sticks\, Baby Carrots\nFruit
- : Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Spaghetti w/ Meatballs
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+DTSTAMP:20261101T165701Z
+UID:9920d8f02c0b3f810358b568cfd0c4bc@bayms-lunch
+DESCRIPTION:Entree: Spaghetti w/ Meatballs\nWith: Side Salad\, Wheat Bread
+ stick\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variet
+ y\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Crispy Chicken Sandwich
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-DTSTAMP:20261025T143957Z
-UID:427a0f46e71c2fbf57f3d2d2b34e340f@bayms-lunch
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+DTSTAMP:20261101T165701Z
+UID:eb6420d28b54dd696bd3f5b613c8e338@bayms-lunch
 DESCRIPTION:Entree: Crispy Chicken Sandwich\nWith: Baked Beans\, Seasoned 
  French Fries\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit
   Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Breaded Mozzarella Cheese Sticks
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-DTSTAMP:20261025T143957Z
-UID:54a151727b641f2ed55508898415036c@bayms-lunch
-DESCRIPTION:Entree: Breaded Mozzarella Cheese Sticks\nWith: Marinara Sauce
- \, Cucumber Slices\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh
-  Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Soft Pretzel with Cheese Dip
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+DTSTAMP:20261101T165701Z
+UID:5d1a40d811c897a909a4edf9a9cf2a56@bayms-lunch
+DESCRIPTION:Entree: Soft Pretzel with Cheese Dip\nWith: Cucumber Slices\nV
+ egetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk:
+  BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chicken Nuggets
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
-DTSTAMP:20261025T143957Z
-UID:509ab5e524aa301214a50378f3abb9ba@bayms-lunch
-DESCRIPTION:Entree: Chicken Nuggets\nWith: Broccoli\, Mashed Potatoes\, Ch
- icken Gravy\, Chocolate Chip Cookies\nVegetables: Celery Sticks\, Baby Car
- rots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1
- % Milk
+SUMMARY:Walking Taco Doritos
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+DTSTAMP:20261101T165701Z
+UID:019ee755767f73f8933a0bc5fb57fadc@bayms-lunch
+DESCRIPTION:Entree: Walking Taco Doritos\nWith: Seasoned Black Beans\, Who
+ le Kernal Corn\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fru
+ it Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-DTSTAMP:20261025T143957Z
-UID:2beb444457f3db6099d2fef41ae99d0c@bayms-lunch
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+DTSTAMP:20261101T165701Z
+UID:7c70a66a1a224204c9db1cf326d4875c@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
  ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mini Maple Pancakes
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
-DTSTAMP:20261025T143957Z
-UID:a3090d8a6ad404996532dec3c9c4f6c7@bayms-lunch
-DESCRIPTION:Entree: Mini Maple Pancakes\nWith: Seasoned Hashbrown Patties
- \, Turkey Sausage Links\, Mango Wango Juice\nVegetables: Celery Sticks\, B
- aby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE M
- ILK\, 1% Milk
+SUMMARY:Crispy Chicken Ranch Wrap
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+DTSTAMP:20261101T165701Z
+UID:65fba542f8e2db7bcd7da947fb1ca884@bayms-lunch
+DESCRIPTION:Entree: Crispy Chicken Ranch Wrap\nWith: Cucumber Slices\nVege
+ tables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BO
+ RDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Walking Taco
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-DTSTAMP:20261025T143957Z
-UID:0797bc0c80fdd13e84d2873ca820cc95@bayms-lunch
-DESCRIPTION:Entree: Walking Taco\nWith: Seasoned Black Beans\, Whole Kerna
- l Corn\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
- ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Turkey & Gravy
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DTSTAMP:20261101T165701Z
+UID:bf1ce70370d97487b2ececaee7b1bd7a@bayms-lunch
+DESCRIPTION:Entree: Turkey & Gravy\nWith: Mashed Potatoes\, Whole Kernal C
+ orn\, Dinner Roll\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh 
+ Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Grilled Cheese Sandwich
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-DTSTAMP:20261025T143957Z
-UID:9f43cf983d2387bcf1131a6810dbcadf@bayms-lunch
-DESCRIPTION:Entree: Grilled Cheese Sandwich\nWith: Tomato Soup\nVegetables
- : Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN F
- AT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Bosco Sticks
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261101T165701Z
+UID:13315eeb48aee6d9a864016d9c21cbf0@bayms-lunch
+DESCRIPTION:Entree: Bosco Sticks\nWith: Marinara Sauce\, Veggie Sticks\nVe
+ getables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: 
+ BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-DTSTAMP:20261025T143957Z
-UID:9c9a6eba62c8d45aa82ba7fb64a72b1c@bayms-lunch
-DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
-  Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
- ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Ramen Bar
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-DTSTAMP:20261025T143957Z
-UID:d4df9faa1f73f342afc4b1ae65e0ad0f@bayms-lunch
-DESCRIPTION:Entree: Ramen Bar\nVegetables: Celery Sticks\, Baby Carrots\nF
- ruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Cheese Quesadilla
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
-DTSTAMP:20261025T143957Z
-UID:9a2e6b33d365362875bc6b210a32a387@bayms-lunch
-DESCRIPTION:Entree: Cheese Quesadilla\nWith: Refried Beans\nVegetables: Ce
+SUMMARY:Hot Dog on WG Bun
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261101T165701Z
+UID:d4fd7176721e481df1867978996084be@bayms-lunch
+DESCRIPTION:Entree: Hot Dog on WG Bun\nWith: Potato Smiles\nVegetables: Ce
  lery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT F
  REE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Philly Cheesesteak w/ Mozzarella
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-DTSTAMP:20261025T143957Z
-UID:c9d680297f0bfeb205a133c36d409cd9@bayms-lunch
-DESCRIPTION:Entree: Philly Cheesesteak w/ Mozzarella\nWith: Potato Smiles
- \, Peppers & Onions\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fres
- h Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261101T165701Z
+UID:3e4e0ee0359e1849448fec39eb4ef90b@bayms-lunch
+DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
+  Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
+ ty\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tangerine Chicken
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DTSTAMP:20261101T165701Z
+UID:034bee3c0957faca7ad2c9e5b4e40be4@bayms-lunch
+DESCRIPTION:Entree: Tangerine Chicken\nWith: Fried Brown Rice WG\, Oven Ro
+ asted Parmesan Broccoli\, Fortune Cookies\nVegetables: Celery Sticks\, Bab
+ y Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT FREE CHOCOLATE MIL
+ K\, 1% Milk
 END:VEVENT
 END:VCALENDAR
