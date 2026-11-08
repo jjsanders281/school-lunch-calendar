@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Popcorn Chicken
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:7709457efafc9ea412e44dcf5382f5c2@bayms-lunch
 DESCRIPTION:Entree: Popcorn Chicken\nWith: Cooked Penne Noodles\, Oven Roa
  sted Parmesan Broccoli\nVegetables: Celery Sticks\, Baby Carrots\nFruit: F
@@ -19,7 +19,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:d49de1f2e084cc826e5ddfcf43b215ae@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
@@ -29,7 +29,7 @@ BEGIN:VEVENT
 SUMMARY:Chicky Ramen Cup
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:9427dbea3eab5860ad73ab86eef26e08@bayms-lunch
 DESCRIPTION:Entree: Chicky Ramen Cup\nWith: Diced Chicken\, Fortune Cookie
  s\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nM
@@ -39,7 +39,7 @@ BEGIN:VEVENT
 SUMMARY:Cheeseburger
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:f9cde21399ddacffc853b94ef008c147@bayms-lunch
 DESCRIPTION:Entree: Cheeseburger\nWith: Baked Beans\, Tater Tots\nVegetabl
  es: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN
@@ -49,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Crunchers 
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:07ff242a6c8abde5426ab29687ba4eba@bayms-lunch
 DESCRIPTION:Entree: Pizza Crunchers \nWith: Marinara Sauce\, Creamy Cole S
  law\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety
@@ -59,7 +59,7 @@ BEGIN:VEVENT
 SUMMARY:Glazed Chicken Wings
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:9ff4629c8165fd178d6a1a1691101f6e@bayms-lunch
 DESCRIPTION:Entree: Glazed Chicken Wings\nWith: Au Gratin Potatoes \, Broc
  coli\, Gluten Free Cinnamon Chex\nVegetables: Celery Sticks\, Baby Carrots
@@ -70,7 +70,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:a1a761a067a74563a70b7ef5e1e57bdd@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
@@ -80,7 +80,7 @@ BEGIN:VEVENT
 SUMMARY:Spaghetti w/ Meatballs
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:9920d8f02c0b3f810358b568cfd0c4bc@bayms-lunch
 DESCRIPTION:Entree: Spaghetti w/ Meatballs\nWith: Side Salad\, Wheat Bread
  stick\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variet
@@ -90,7 +90,7 @@ BEGIN:VEVENT
 SUMMARY:Crispy Chicken Sandwich
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:eb6420d28b54dd696bd3f5b613c8e338@bayms-lunch
 DESCRIPTION:Entree: Crispy Chicken Sandwich\nWith: Baked Beans\, Seasoned 
  French Fries\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit
@@ -100,7 +100,7 @@ BEGIN:VEVENT
 SUMMARY:Soft Pretzel with Cheese Dip
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:5d1a40d811c897a909a4edf9a9cf2a56@bayms-lunch
 DESCRIPTION:Entree: Soft Pretzel with Cheese Dip\nWith: Cucumber Slices\nV
  egetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk:
@@ -110,7 +110,7 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco Doritos
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:019ee755767f73f8933a0bc5fb57fadc@bayms-lunch
 DESCRIPTION:Entree: Walking Taco Doritos\nWith: Seasoned Black Beans\, Who
  le Kernal Corn\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fru
@@ -120,7 +120,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:7c70a66a1a224204c9db1cf326d4875c@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
@@ -130,7 +130,7 @@ BEGIN:VEVENT
 SUMMARY:Crispy Chicken Ranch Wrap
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:65fba542f8e2db7bcd7da947fb1ca884@bayms-lunch
 DESCRIPTION:Entree: Crispy Chicken Ranch Wrap\nWith: Cucumber Slices\nVege
  tables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BO
@@ -140,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:Turkey & Gravy
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:bf1ce70370d97487b2ececaee7b1bd7a@bayms-lunch
 DESCRIPTION:Entree: Turkey & Gravy\nWith: Mashed Potatoes\, Whole Kernal C
  orn\, Dinner Roll\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh 
@@ -150,7 +150,7 @@ BEGIN:VEVENT
 SUMMARY:Bosco Sticks
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:13315eeb48aee6d9a864016d9c21cbf0@bayms-lunch
 DESCRIPTION:Entree: Bosco Sticks\nWith: Marinara Sauce\, Veggie Sticks\nVe
  getables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: 
@@ -160,7 +160,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Dog on WG Bun
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:d4fd7176721e481df1867978996084be@bayms-lunch
 DESCRIPTION:Entree: Hot Dog on WG Bun\nWith: Potato Smiles\nVegetables: Ce
  lery Sticks\, Baby Carrots\nFruit: Fresh Fruit Variety\nMilk: BORDEN FAT F
@@ -170,7 +170,7 @@ BEGIN:VEVENT
 SUMMARY:Pizza Hut Cheese Pizza (Whole Wheat Dough)
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:3e4e0ee0359e1849448fec39eb4ef90b@bayms-lunch
 DESCRIPTION:Entree: Pizza Hut Cheese Pizza (Whole Wheat Dough)\nWith: Side
   Salad\nVegetables: Celery Sticks\, Baby Carrots\nFruit: Fresh Fruit Varie
@@ -180,7 +180,7 @@ BEGIN:VEVENT
 SUMMARY:Tangerine Chicken
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-DTSTAMP:20261101T165701Z
+DTSTAMP:20261108T165018Z
 UID:034bee3c0957faca7ad2c9e5b4e40be4@bayms-lunch
 DESCRIPTION:Entree: Tangerine Chicken\nWith: Fried Brown Rice WG\, Oven Ro
  asted Parmesan Broccoli\, Fortune Cookies\nVegetables: Celery Sticks\, Bab

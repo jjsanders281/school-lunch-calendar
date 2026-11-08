@@ -9,7 +9,7 @@ BEGIN:VEVENT
 SUMMARY:Cheeseburger
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:27f676997a3b9db55639538d0c753255@bayhs-lunch
 DESCRIPTION:Entree: Cheeseburger\nWith: Romaine Lettuce\, Tomato Slices\, 
  Sliced Red Onions\, Dill Pickles\, Sidewinders French Fries\, Dinner Roll
@@ -22,7 +22,7 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:ed7b7897f22de1287cfc728fc602a27a@bayhs-lunch
 DESCRIPTION:Entree: Walking Taco\nWith: Dinner Roll\, Cornbread\nVegetable
  s: Vegetable Bar\, Baby Carrots\, Celery Sticks\nFruit: Fresh Fruit Variet
@@ -33,7 +33,7 @@ BEGIN:VEVENT
 SUMMARY:Tangerine Chicken
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:3ca9daba2959e8292c063bc44eddde81@bayhs-lunch
 DESCRIPTION:Entree: Tangerine Chicken\nWith: Fried Brown Rice WG\, Vegetab
  le Egg Roll\, Fortune Cookies\, Dinner Roll\, Cornbread\nVegetables: Veget
@@ -45,7 +45,7 @@ BEGIN:VEVENT
 SUMMARY:Meat Lasagna
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:1dc0fe63ae92de8111d2793095a5b81c@bayhs-lunch
 DESCRIPTION:Entree: Meat Lasagna\nWith: Wheat Breadstick\, Side Salad\, Di
  nner Roll\, Cornbread\nVegetables: Vegetable Bar\, Baby Carrots\, Celery S
@@ -57,7 +57,7 @@ BEGIN:VEVENT
 SUMMARY:Veggie Pizza
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:8f92d7fd25dee699f2430e152cb2c1c1@bayhs-lunch
 DESCRIPTION:Entree: Veggie Pizza\nWith: Pepperoni Pizza\, Cheese Pizza\, S
  ausage Pizza\, Dinner Roll\, Cornbread\nVegetables: Vegetable Bar\, Celery
@@ -69,7 +69,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Dog on WG Bun
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:2287605a1c4503083f794af9e4ec72b0@bayhs-lunch
 DESCRIPTION:Entree: Hot Dog on WG Bun\nWith: Beef Chili\, Baked Beans\, Di
  nner Roll\, Cornbread\nVegetables: Vegetable Bar\, Baby Carrots\, Celery S
@@ -81,7 +81,7 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:86321e5f07560fc26442fc0f5dac6093@bayhs-lunch
 DESCRIPTION:Entree: Walking Taco\nWith: Dinner Roll\, Cornbread\nVegetable
  s: Vegetable Bar\, Baby Carrots\, Celery Sticks\nFruit: Fresh Fruit Variet
@@ -92,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:General Tso's Chicken
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:7fa3a8667f8b11f8eafe8111858ce474@bayhs-lunch
 DESCRIPTION:Entree: General Tso's Chicken\nWith: Fried Brown Rice WG\, Veg
  etable Egg Roll\, Fortune Cookies\, Dinner Roll\, Cornbread\nVegetables: V
@@ -101,22 +101,21 @@ DESCRIPTION:Entree: General Tso's Chicken\nWith: Fried Brown Rice WG\, Veg
  \nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Classic Grilled Cheese Sandwich
+SUMMARY:Chicken Pot Pie 
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-DTSTAMP:20261101T165702Z
-UID:f5e6ed96983c7a7e51feddc47c57fbc5@bayhs-lunch
-DESCRIPTION:Entree: Classic Grilled Cheese Sandwich\nWith: Tomato Soup\, T
- ater Tots\, Dinner Roll\, Cornbread\nVegetables: Vegetable Bar\, Baby Carr
- ots\, Celery Sticks\nFruit: Fresh Fruit Variety\, Unsweetened Applesauce C
- up\, Diced Peaches\, Box of Raisins\, Strawberries\nMilk: BORDEN FAT FREE 
- CHOCOLATE MILK\, 1% Milk
+DTSTAMP:20261108T165019Z
+UID:764484b2771b838fc9b117fd3659e437@bayhs-lunch
+DESCRIPTION:Entree: Chicken Pot Pie \nWith: Dinner Roll\, Cornbread\nVeget
+ ables: Vegetable Bar\, Baby Carrots\, Celery Sticks\nFruit: Fresh Fruit Va
+ riety\, Unsweetened Applesauce Cup\, Diced Peaches\, Box of Raisins\, Stra
+ wberries\nMilk: BORDEN FAT FREE CHOCOLATE MILK\, 1% Milk
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Veggie Pizza
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:6366817d980981bf844e264184eca9dc@bayhs-lunch
 DESCRIPTION:Entree: Veggie Pizza\nWith: Pepperoni Pizza\, Cheese Pizza\, S
  ausage Pizza\, Dinner Roll\, Cornbread\, Wheat Breadstick\nVegetables: Veg
@@ -128,7 +127,7 @@ BEGIN:VEVENT
 SUMMARY:Cheeseburger
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:8aa4243b43f776f71da8e10238a8369a@bayhs-lunch
 DESCRIPTION:Entree: Cheeseburger\nWith: Romaine Lettuce\, Tomato Slices\, 
  Sliced Red Onions\, Dill Pickles\, Sidewinders French Fries\, Dinner Roll
@@ -141,7 +140,7 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:5a4673d546e49d81d2159f5ac5b3bea5@bayhs-lunch
 DESCRIPTION:Entree: Walking Taco\nWith: Dinner Roll\, Cornbread\nVegetable
  s: Vegetable Bar\, Baby Carrots\, Celery Sticks\nFruit: Fresh Fruit Variet
@@ -152,7 +151,7 @@ BEGIN:VEVENT
 SUMMARY:Tangerine Chicken
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:edafe6dba7fa9870b1ab2b36cf95c36a@bayhs-lunch
 DESCRIPTION:Entree: Tangerine Chicken\nWith: Fried Brown Rice WG\, Vegetab
  le Egg Roll\, Fortune Cookies\, Dinner Roll\, Cornbread\nVegetables: Veget
@@ -164,7 +163,7 @@ BEGIN:VEVENT
 SUMMARY:Meat Lasagna
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:2c514bb8a5f55f7ffe369c7da73142c4@bayhs-lunch
 DESCRIPTION:Entree: Meat Lasagna\nWith: Wheat Breadstick\, Side Salad\, Di
  nner Roll\, Cornbread\nVegetables: Vegetable Bar\, Baby Carrots\, Celery S
@@ -176,7 +175,7 @@ BEGIN:VEVENT
 SUMMARY:Veggie Pizza
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:47e3861cbc9d0875d4257637a0e01695@bayhs-lunch
 DESCRIPTION:Entree: Veggie Pizza\nWith: Pepperoni Pizza\, Cheese Pizza\, S
  ausage Pizza\, Dinner Roll\, Cornbread\, Wheat Breadstick\nVegetables: Veg
@@ -188,7 +187,7 @@ BEGIN:VEVENT
 SUMMARY:Hot Dog on WG Bun
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:d4fd7176721e481df1867978996084be@bayhs-lunch
 DESCRIPTION:Entree: Hot Dog on WG Bun\nWith: Beef Chili\, Baked Beans\, Di
  nner Roll\, Cornbread\nVegetables: Vegetable Bar\, Baby Carrots\, Celery S
@@ -200,7 +199,7 @@ BEGIN:VEVENT
 SUMMARY:Walking Taco
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:38e28787e60454bbd6fe70acbac9ef55@bayhs-lunch
 DESCRIPTION:Entree: Walking Taco\nWith: Dinner Roll\, Cornbread\nVegetable
  s: Vegetable Bar\, Baby Carrots\, Celery Sticks\nFruit: Fresh Fruit Variet
@@ -211,7 +210,7 @@ BEGIN:VEVENT
 SUMMARY:Cheeseburger
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
-DTSTAMP:20261101T165702Z
+DTSTAMP:20261108T165019Z
 UID:35973cf43a8d0c6b75654bcdf80b73e4@bayhs-lunch
 DESCRIPTION:Entree: Cheeseburger\nWith: Romaine Lettuce\, Tomato Slices\, 
  Sliced Red Onions\, Dill Pickles\, Sidewinders French Fries\, Dinner Roll
